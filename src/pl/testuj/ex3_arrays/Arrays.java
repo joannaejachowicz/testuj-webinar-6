@@ -6,7 +6,7 @@ public class Arrays {
         String lastname = "Potocki";
 
         String[] names;
-        names = new String[5];
+        names = new String[6];
 
 //        ["Wojtek"] ["Jan"] ["Julia"] ["Adam"] ["Piotr"]
 //        0           1       2           3       4
@@ -26,5 +26,17 @@ public class Arrays {
 
         int lastIndex = colors.length - 1;
         System.out.println(colors[lastIndex]);
+
+        for (String color : colors) {
+            System.out.println(color);
+        }
+
+        boolean[] logic = new boolean[10];
+        System.out.println(logic[3]);
+
+        String x = "Wojtek";
+        char[] y = x.toCharArray();
+        System.out.println(y[6]);
+        System.out.println(y[5]);
     }
 }
